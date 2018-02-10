@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+.Wrapper{
+}
+
+.nav{
+  width: auto;
+  height: 250px;
+  left: 0px;
+  top: 0px;
+  background: #FF6969;
+}
+
+.petlover{
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.mainsection{
+  width: auto;
+  height: 474px;
+  overflow-x hidden;
+  position: auto;
+  background-image: url("/Users/AdamMcKnight/Desktop/amcknight_local/College_Spring 18/Web Dev/McKnight_Adam_Project 1/webdev01_pet_lover_meet_human/design/wavebgfull.png");
+  background-position: left;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+h3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
