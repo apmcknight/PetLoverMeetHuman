@@ -5,6 +5,11 @@
 	box-sizing: border-box;
 }
 
+.bgimage{
+	background-image: image(design/bg image.png);
+	background-position: center;
+}
+
 .Wrapper{
 }
 
