@@ -5,20 +5,37 @@
 	box-sizing: border-box;
 }
 
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-image: image(design/bg image.png);
+}
+
+#Wrapper{
+	width: auto;
+	height: 255px;
+	margin: auto;
+	background-color: #FF6969
+}
+
+h3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 .bgimage{
 	background-image: image(design/bg image.png);
 	background-position: center;
 }
 
-.Wrapper{
-}
-
-.nav{
-  width: auto;
-  height: 250px;
-  left: 0px;
-  top: 0px;
-  background: #FF6969;
+.logo{
+	float: left;
+	padding-top: 35px;
+	padding-left: 30px;
 }
 
 .petlover{
@@ -37,12 +54,32 @@
   background-repeat: no-repeat;
 }
 
-h3{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 15px;
-  text-align: center;
-  color: #FFFFFF;
+.navbar ul{
+	list-style-type: none;
+	 margin: 0px;
+	 top-padding: 35px;
+	 right-padding: 0px;
+	 float: right;
+	 overflow: hidden;
+}
+
+.navbar ul li {
+    float: left;
+	}
+
+.navbar ul li a {
+	display: block;
+	width: 140px;
+	color: white;
+	text-align: center;
+	padding: 14px 0px;
+	text-decoration: none;
+	}
+
+.navbar ul li a:hover {
+	background-color:#2C7237;
+	}
+
+.navbar ul .active {
+  background-color: #4CAF50;
 }
