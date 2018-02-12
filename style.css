@@ -7,8 +7,8 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
-	background-image: image(design/bg image.png);
-}
+	background-position: center;
+	}
 
 #Wrapper{
 	width: auto;
@@ -18,7 +18,7 @@ body{
 }
 
 /* font classes */
-.singles h2{
+.singles{
 	font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: medium;
@@ -27,6 +27,7 @@ body{
   text-align: center;
   color: #FF6969;
 	padding: 0px, 500px;
+	margin-bottom: 150px;
 }
 
 h2{
@@ -62,7 +63,8 @@ h4{
 	line-height: 160%;
 	text-align: justify;
 	color: #000000;
-	padding: 65px;
+	padding: 100px, 100px;
+	margin: 25px, 25px;
 	margin: auto;
 }
 
@@ -80,12 +82,7 @@ h5{
 	color: #000000;
 
 }
-/* font classes */
-
-.bgimage{
-	background-image: image(design/bg image.png);
-	background-position: center;
-}
+/* end font classes */
 
 .logo{
 	float: left;
@@ -116,8 +113,12 @@ h5{
 
 .ourstory{
 	position: relative;
-	padding: 400px, 400px;
-	margin: auto;
+	padding-top: : 400;
+	padding-bottom: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+	margin-bottom: 350px;
 	width: 909px;
 	height: 833px;
 	background: #FFFFFF;
@@ -125,33 +126,43 @@ h5{
 }
 
 .a_ourstory{
+	position: relative;
 	margin-top: 100px;
 	margin-left: 280px;
 	margin-right: 280px;
+	margin-bottom: 55px;
 	width: 435px;
 	height: 128px;
 }
 
-.signture{
+.jack{
 	position: relative;
-	padding: 400px, 400px;
 	margin: auto;
-	width: 909px;
-	height: 833px;
 }
+
+.signture{
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin: auto;
+}
+
 
 /* navigation */
 .navbar ul{
-	list-style-type: none;
-	 margin: 0px;
-	 top-padding: 35px;
-	 right-padding: 0px;
+	 list-style-type: none;
+	 margin-top: 35px;
+	 margin-bottom: 0px;
+	 margin-left: auto;
+	 margin-right: 30px;
+	 padding: auto;
 	 float: right;
 	 overflow: hidden;
 }
 
 .navbar ul li {
-    float: left;
+		float: right;
 	}
 
 .navbar ul li a {
@@ -164,10 +175,11 @@ h5{
 	}
 
 .navbar ul li a:hover {
-	background-color:#2C7237;
+	font-weight:300;
+	color:#2C7237;
 	}
-
+/*stoped here */
 .navbar ul .active {
-  background-color: #4CAF50;
+  color: #4CAF50;
 }
 /* navigation */
