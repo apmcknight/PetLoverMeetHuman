@@ -183,7 +183,6 @@ button {
 	padding-left: 70px;
 	padding-right: auto;
 	padding-bottom: 25px;
-
 	font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -296,7 +295,23 @@ button {
 	background: #000000;
 }
 
-
+.creditnames{
+	display: block;
+	padding-top: 5px;
+	padding-left: 70px;
+	padding-right: auto;
+	padding-bottom: 25px;
+	font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+  letter-spacing: 0.15em;
+	color: #FFFFFF;
+}
 /* navigation */
 .navbar ul{
 	 list-style-type: none;
