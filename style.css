@@ -10,11 +10,26 @@ body{
 	background-position: center;
 	}
 
+footer{
+		display: block;
+		width: auto;
+		height: 258px;
+		left: 0px;
+		top: 5207px;
+		background: #2E2E2E;
+	}
 #Wrapper{
 	width: auto;
 	height: 300px;
 	margin: auto;
 	background-color: #FF6969
+}
+
+#WrapperCredits{
+	width: auto;
+	height: 300px;
+	margin: auto;
+	background-color: #2E2E2E;
 }
 
 /* font classes */
@@ -73,6 +88,8 @@ h5{
 	height: 19px;
 	left: 428px;
 	top: 1914px;
+	padding-top: 150px;
+	padding-bottom: 30px;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
@@ -82,10 +99,75 @@ h5{
 	color: #000000;
 
 }
+
+
 /* end font classes */
+
+/* start button classes */
+button {
+	width: auto;
+	height: 45px;
+  border-radius: 28px;
+	margin: auto;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-family: Montserrat;
+	letter-spacing: .5px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+  background: #FF6969;
+  text-decoration: none;
+}
+
+/* button hover {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.18);
+  text-decoration: none;
+} */
+.copyright{
+	float: left;
+	padding-top: 75px;
+	padding-left: 70px;
+	font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  text-align: left;
+	text-transform: uppercase;
+  letter-spacing: 0.15em;
+	color: #FFFFFF;
+}
+
+.credits a{
+	float: left;
+	padding-top: 5px;
+	padding-left: 0px;
+	font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 10px;
+  text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+  letter-spacing: 0.15em;
+	color: #FFFFFF;
+}
+
+.footerlogo{
+	float: right;
+	padding-top: 115px;
+	padding-right: 70px;
+}
 
 .logo{
 	float: left;
+	float: clear;
 	padding-top: 35px;
 	padding-left: 30px;
 }
@@ -112,13 +194,12 @@ h5{
 }
 
 .ourstory{
-	position: relative;
-	padding-top: : 400;
-	padding-bottom: 400px;
+	display: block;
+	padding-top: 400;
+	padding-bottom: 350px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px
-	margin-bottom: 350px;
+	margin-bottom: 100px;
 	width: 909px;
 	height: 833px;
 	background: #FFFFFF;
@@ -137,48 +218,72 @@ h5{
 
 .jack{
 	position: relative;
-	margin: auto;
+	width: 190px;
+	height: 141px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
 }
 
 .signture{
 	position: absolute;
 	width: auto;
 	height: auto;
+	padding-top: 75px;
 	margin: auto;
 	margin: auto;
 }
 
+.whyus{
+	display: block;
+	padding-top: 400;
+	padding-bottom: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	width: 909px;
+	height: 833px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.42);
+}
 
+.creditbody{
+	background: #2E2E2E;
+}
 /* navigation */
 .navbar ul{
 	 list-style-type: none;
 	 margin-top: 35px;
 	 margin-bottom: 0px;
-	 margin-left: auto;
-	 margin-right: 30px;
-	 padding: auto;
+	 padding-top: 14px;
+	 padding-left: auto;
+ 	 padding-right: 75px;
+	 /* >> Why wont this work? letter-spacing: 45%; */
+ 	 margin-left: auto;
 	 float: right;
 	 overflow: hidden;
 }
 
 .navbar ul li {
-		float: right;
+		float: left;
 	}
 
 .navbar ul li a {
 	display: block;
-	width: 140px;
+	width: auto;
 	color: white;
+	font-size: 14px;
+	letter-spacing: 4px;
+	padding-left: 45px;
 	text-align: center;
-	padding: 14px 0px;
 	text-decoration: none;
 	}
 
 .navbar ul li a:hover {
-	font-weight:300;
-	color:#2C7237;
+	font-weight:bold;
+	color:#FFFFFF;
 	}
-/*stoped here */
+
 .navbar ul .active {
   color: #4CAF50;
 }
