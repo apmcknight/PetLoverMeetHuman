@@ -161,10 +161,10 @@ button {
 
 .creditsh1{
 	display: block;
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-left: 70px;
 	padding-right: auto;
-	padding-bottom: 25px;
+	padding-bottom: .5px;
 	font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -176,13 +176,15 @@ button {
   letter-spacing: 0.15em;
 	color: #FFFFFF;
 }
-/* fix this */
+
+
+
 .creditp{
 	display: block;
 	padding-top: 5px;
 	padding-left: 70px;
 	padding-right: auto;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -194,6 +196,7 @@ button {
   letter-spacing: 0.15em;
 	color: #FFFFFF;
 }
+
 .footerlogo{
 	float: right;
 	padding-top: 115px;
@@ -297,10 +300,10 @@ button {
 
 .creditnames{
 	display: block;
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-left: 70px;
 	padding-right: auto;
-	padding-bottom: 25px;
+	padding-bottom: 155px;
 	font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -312,6 +315,32 @@ button {
   letter-spacing: 0.15em;
 	color: #FFFFFF;
 }
+
+.lisence{
+	font-weight:500;
+}
+
+a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FFFFFF;
+	text-decoration:none;
+	text-decoration:line-through;
+}
+
+a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 /* navigation */
 .navbar ul{
 	 list-style-type: none;
@@ -320,7 +349,6 @@ button {
 	 padding-top: 14px;
 	 padding-left: auto;
  	 padding-right: 75px;
-	 /* >> Why wont this work? letter-spacing: 45%; */
  	 margin-left: auto;
 	 float: right;
 	 overflow: hidden;
