@@ -156,6 +156,25 @@ h5{
 	color: #FFFFFF;
 }
 
+.creditmain{
+	display: block;
+	padding-top: 0px;
+	padding-left: 70px;
+	padding-right: auto;
+	padding-bottom: .5px;
+	font-family: Montserrat;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  font-size: 25px;
+  text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+  letter-spacing: 0.15em;
+	color: #FFFFFF;
+}
+
+
 .creditsh1{
 	display: block;
 	padding-top: 0px;
