@@ -386,6 +386,15 @@ h5{
 	font-weight:500;
 }
 
+.faqhead{
+	font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: medium;
+  line-height: normal;
+  font-size: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 a:link{
 	color: #FFFFFF;
