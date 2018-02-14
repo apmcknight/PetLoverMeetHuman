@@ -76,10 +76,9 @@ h4{
 	line-height: normal;
 	font-size: 19px;
 	line-height: 160%;
-	text-align: justify;
+	text-align: center;
 	color: #000000;
-	padding: 100px, 100px;
-	margin: 25px, 25px;
+	padding 20px;
 	margin: auto;
 }
 
@@ -104,15 +103,13 @@ h5{
 /* end font classes */
 
 /* start button classes */
-button {
-	width: auto;
+.button {
+	width: 150px;
 	height: 45px;
   border-radius: 28px;
 	margin: auto;
-	padding-left: 35px;
-	padding-right: 35px;
 	font-family: Montserrat;
-	letter-spacing: .5px;
+	letter-spacing: 2px;
 	font-style: normal;
 	font-weight: normal;
 	line-height: normal;
@@ -286,12 +283,20 @@ button {
 }
 
 .whyusgroup{
-	position: relative;
+	display: relative;
 	width: 190px;
 	height: 141px;
+	padding-top: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: auto;
+}
+
+.buttonwrapper{
+	width: 150px;
+	height: 45px;
+  border-radius: 28px;
+	padding-top: 25px;
+	margin: auto;
 }
 
 .creditbody{
