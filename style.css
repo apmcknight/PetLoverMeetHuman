@@ -386,6 +386,7 @@ h5{
 	font-weight:500;
 }
 
+
 a:link{
 	color: #FFFFFF;
 	text-decoration: none;
@@ -442,8 +443,8 @@ a:active{
 	color:#FFFFFF;
 	}
 
-.navbar ul:active {
-	font-weight: bold;
-	color: #4CAF50;
-}
+.navbar ul .active {
+	font-weight: bolder;
+	}
+
 /* navigation */
