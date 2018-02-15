@@ -366,8 +366,6 @@ h5{
 	margin-right: auto;
 }
 
-
-
 .buttonwrapper{
 	width: 150px;
 	height: 45px;
@@ -401,6 +399,11 @@ h5{
 .lisence{
 	font-weight:500;
 }
+
+.photojajgroup{
+	padding: 150px;
+}
+
 
 .photojaj{
 	display: block;
