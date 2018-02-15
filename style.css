@@ -34,6 +34,7 @@ footer{
 
 /* font classes */
 .singles{
+	display: block;
 	font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: medium;
@@ -41,8 +42,10 @@ footer{
   font-size: 45px;
   text-align: center;
   color: #FF6969;
-	padding: 0px, 500px;
-	margin-bottom: 150px;
+	margin: auto;
+	padding-top: 55px;
+	padding-bottom: 150px;
+
 }
 
 h2{
@@ -228,8 +231,10 @@ h5{
 }
 
 .petlover{
-  margin-left: 500px;
-  margin-right: 500px;
+	display: block;
+	margin: auto;
+  /* margin-left: 500px;
+  margin-right: 500px; */
 }
 
 .mainsection{
@@ -244,8 +249,8 @@ h5{
 }
 
 .onehundread{
-	margin-left: 560px;
-	margin-right: 560px;
+	display: block;
+	margin: auto;
 }
 
 .ourstory{
