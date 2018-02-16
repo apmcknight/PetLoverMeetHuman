@@ -79,7 +79,7 @@ h4{
 	line-height: normal;
 	font-size: 19px;
 	line-height: 160%;
-	text-align: center;
+	text-align: left;
 	color: #000000;
 	padding 20px;
 	margin: auto;
@@ -111,7 +111,7 @@ h5{
 	height: 45px;
   border-radius: 28px;
 	border-color: #FF6969;
-	margin: auto;
+	margin: ;
 	font-family: Montserrat;
 	letter-spacing: 2px;
 	font-style: normal;
