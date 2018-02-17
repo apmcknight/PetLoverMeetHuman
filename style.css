@@ -26,10 +26,16 @@ footer{
 }
 
 #WrapperCredits{
-	width: auto;
+	width: 500px;
 	height: 300px;
 	margin: auto;
 	background-color: #000000;
+}
+
+#likes{
+	margin: auto;
+	width: 500px;
+	height: auto;
 }
 
 /* font classes */
@@ -339,6 +345,35 @@ h5{
 	margin-bottom: 100px;
 	width: 909px;
 	height: auto;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.42);
+}
+
+.profiletxt{
+	display: block;
+	margin: auto;
+	padding: 15px;
+	width: 300px;
+	height: 300px;
+}
+
+.profileimg{
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 300px;
+	height: 300px;
+}
+
+.profilelike{
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: 200px;
+	margin-bottom: 55px;
+	width: 500px;
+	height: 580px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.42);
 }
