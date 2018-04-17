@@ -38,7 +38,6 @@ footer{
 	height: auto;
 }
 
-/* font classes */
 .singles{
 	display: block;
 	font-family: 'Montserrat', sans-serif;
@@ -108,10 +107,6 @@ h5{
 
 }
 
-
-/* end font classes */
-
-/* start button classes */
 .button {
 	width: 150px;
 	height: 45px;
@@ -310,8 +305,6 @@ h5{
 .petlover{
 	display: block;
 	margin: auto;
-  /* margin-left: 500px;
-  margin-right: 500px; */
 }
 
 .mainsection{
@@ -464,19 +457,19 @@ h5{
 	padding 20px;
 	margin: auto;}
 
-	.phototext{
-		float: left;
-		font-family: Montserrat;
-		font-style: normal;
-		font-weight: bold;
-		line-height: normal;
-		font-size: 19px;
-		line-height: 160%;
-		text-align: left;
-		color: #000000;
-		padding-left: 35px;
-		padding-right: auto;
-		margin: auto;
+.phototext{
+	float: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 19px;
+	line-height: 160%;
+	text-align: left;
+	color: #000000;
+	padding-left: 35px;
+	padding-right: auto;
+	margin: auto;
 	}
 
 
@@ -564,7 +557,6 @@ a:active{
 	text-decoration: none;
 }
 
-/* navigation */
 .navbar ul{
 	 list-style-type: none;
 	 margin-top: 35px;
@@ -602,13 +594,6 @@ a:active{
 	font-weight: bolder;
 	}
 
-/* navigation */
-
-
-/* LOGIN FORM */
-
-
-
 .label{
 	display: block;
 	width: 100%;
@@ -639,7 +624,6 @@ input[type=text], input[type=password] {
     margin: 24px 0 12px 0;
 }
 
-/* padding for the containers */
 .container {
 		display: block;
 		margin: auto;
